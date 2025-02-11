@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./RockPaperScissors.css";
+import "./rockPaperScissors.css";
 
 export default function RockPaperScissors() {
   const choices = ["✊", "✋", "✌️"];
