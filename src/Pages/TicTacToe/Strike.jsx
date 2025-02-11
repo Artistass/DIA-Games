@@ -1,4 +1,4 @@
-import styles from "./TicTacToe.module.css";
+import styles from "./Tic_Tac_Toe.module.css";
 
 export default function Strike({ strikeClass }) {
   return (

@@ -1,7 +1,6 @@
 import Tile from "./Tile.jsx";
 import Strike from "./Strike.jsx";
-import styles from "./TicTacToe.module.css";
-
+import styles from "./Tic_Tac_Toe.module.css";
 export default function Board({ tiles, onTileClick, playerTurn, strikeClass }) {
   return (
     <div className={styles.board}>

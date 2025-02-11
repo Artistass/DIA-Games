@@ -1,4 +1,4 @@
-import styles from "./TicTacToe.module.css";
+import styles from "./Tic_Tac_Toe.module.css";
 import GameState from "./GameStates.js";
 
 export default function GameOver({gameState}) {
