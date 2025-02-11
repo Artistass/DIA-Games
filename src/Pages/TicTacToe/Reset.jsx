@@ -1,4 +1,4 @@
-import GameState from "./GameStates";
+import GameState from "./GameStates.js";
 import styles from "./TicTacToe.module.css";
 
 export default function Reset({gameState, onReset}) {

@@ -1,5 +1,5 @@
-import Tile from "./Tile";
-import Strike from "./Strike";
+import Tile from "./Tile.jsx";
+import Strike from "./Strike.jsx";
 import styles from "./TicTacToe.module.css";
 
 export default function Board({ tiles, onTileClick, playerTurn, strikeClass }) {

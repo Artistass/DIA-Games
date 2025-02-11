@@ -1,4 +1,4 @@
-import styles from './TicTacToe.module.css'
+import styles from "./TicTacToe.module.css";
 
 export default function Tile({className, value, onClick, playerTurn}) {
 

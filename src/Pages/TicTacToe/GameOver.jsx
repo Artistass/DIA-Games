@@ -1,5 +1,5 @@
 import styles from "./TicTacToe.module.css";
-import GameState from "./GameStates";
+import GameState from "./GameStates.js";
 
 export default function GameOver({gameState}) {
  switch(gameState) {

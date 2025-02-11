@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import Board from "./Board";
+import Board from "./Board.jsx";
 import styles from "./TicTacToe.module.css";
-import GameOver from "./GameOver";
-import GameState from "./GameStates";
-import Reset from "./Reset";
+import GameOver from "./GameOver.jsx";
+import GameState from "./GameStates.js";
+import Reset from "./Reset.jsx";
 
 const PLAYER_X = "X";
 const PLAYER_O = "O";
