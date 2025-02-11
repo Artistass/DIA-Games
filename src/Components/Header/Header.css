@@ -1,0 +1,22 @@
+/* Header */
+
+.header-container {
+  background-color: #343a40;
+  color: #eeee;
+}
+
+.header-logo {
+  height: 60px;
+  filter: invert(1);
+}
+
+.header-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header-title-2 {
+  letter-spacing: 3px;
+  font-family: 'Orbitron', sans-serif;
+}

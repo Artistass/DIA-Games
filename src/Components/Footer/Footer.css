@@ -1,0 +1,22 @@
+/* Footer */
+
+.footer-logo {
+  height: 60px;
+  filter: invert(1);
+}
+
+.footer-text {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 5px;
+  font-size: 35px;
+}
+
+.footer-link {
+  color: #f8d210;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.footer-link:hover {
+  color: #ff6f00;
+  transform: scale(1.1);
+}

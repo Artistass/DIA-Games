@@ -1,0 +1,126 @@
+.container {
+  padding: 20px 0 20px 0;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #23272f;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 100px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  cursor: pointer;
+  position: relative;
+}
+
+.tile {
+  color: currentColor;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_border {
+  border-right: .2em solid #0074a6;
+}
+
+.bottom_border {
+  border-bottom: .2em solid #0074a6;
+}
+
+.x_hover:hover::after {
+  content: "X";
+  opacity: .4;
+}
+
+.o_hover:hover::after {
+  content: "O";
+  opacity: .4;
+}
+
+.strike {
+  position: absolute;
+  background-color: darkorange;
+}
+
+.strike_row_1 {
+  width: 100%;
+  height: 4px;
+  top: 15%;
+}
+
+.strike_row_2 {
+  width: 100%;
+  height: 4px;
+  top: 48%;
+}
+
+.strike_row_3 {
+  width: 100%;
+  height: 4px;
+  top: 83%;
+}
+
+.strike_column_1 {
+  width: 4px;
+  height: 100%;
+  left: 15%;
+}
+
+.strike_column_2 {
+  width: 4px;
+  height: 100%;
+  left: 48%;
+}
+
+.strike_column_3 {
+  width: 4px;
+  height: 100%;
+  left: 83%;
+}
+
+.strike_diagonal_1 {
+  width: 90%;
+  height: 4px;
+  top: 50%;
+  left: 5%;
+  transform: skewY(45deg);
+}
+
+.strike_diagonal_2 {
+  width: 90%;
+  height: 4px;
+  top: 50%;
+  left: 5%;
+  transform: skewY(-45deg);;
+}
+
+.game_over {
+  text-align: center;
+  border: #5468ff 8px;
+  border-style: dotted;
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 1.5em;
+}
+
+.reset_button {
+  margin: 25px 0 20px 0;
+  padding: 20px;
+  background-color: #0074a6;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 30%;
+  font-size: 1.5em;
+}

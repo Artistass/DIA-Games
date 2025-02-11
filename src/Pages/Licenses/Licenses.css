@@ -1,0 +1,26 @@
+.licenses-container {
+  max-width: 600px;
+  height: 80vh;
+  margin: auto;
+}
+
+.licenses-title {
+  font-family: "Arial", sans-serif;
+  letter-spacing: 1px;
+  color: rgb(246, 199, 10);
+}
+
+.licenses-text {
+  line-height: 1.6;
+}
+
+a.btn {
+  border: 2px solid black;
+  transition: all 0.3s ease;
+  background-color: rgb(246, 199, 10);
+}
+
+a.btn:hover {
+ background-color: rgba(246, 199, 10, 0.687);
+ border: 2px solid black;
+}

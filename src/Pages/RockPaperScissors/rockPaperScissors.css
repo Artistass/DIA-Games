@@ -1,0 +1,30 @@
+.rock-paper-scissors-container {
+  min-height: 80vh;
+  background-color: #aebd93;
+}
+
+.choice-buttons-container {
+  margin: 20px 200px 20px 200px;
+}
+
+.choice-button {
+  width: 10rem;
+  background-color: #7a8450;
+}
+
+.choice-button:hover {
+  background-color: #bee7b8;
+}
+
+.choice {
+  font-size: 150px;
+}
+
+.result {
+  font-size: 100px;
+}
+
+.score {
+  font-size: 40px;
+  font-weight: bold;
+}

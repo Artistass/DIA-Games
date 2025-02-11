@@ -1,0 +1,133 @@
+.hangman-container {
+  margin: auto;
+  background-color: rgb(195, 213, 213);
+  height: 80vh;
+}
+
+.div-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 50px;
+}
+
+.div-center-3 {
+  margin-bottom: 80px;
+}
+
+.form-control {
+  width: 350px;
+  border: 2px solid black;
+}
+
+.restart-btn {
+  margin-bottom: 15px;
+}
+
+/*  */
+
+.hangman-block {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background-color: #f8f9fa;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+.hangman-block .line {
+  position: absolute;
+  background-color: black;
+  transform-origin: top left;
+}
+
+/* Base for the gallows */
+.hangman-block .line-1 {
+ width: 140px;
+ height: 15px;
+ bottom: 0;
+}
+
+/* Vertical gallows pole */
+.hangman-block .line-2 {
+  width: 15px;
+  height: 350px;
+  bottom: 10px;
+  left: 50px;
+}
+
+/* Top bar */
+.hangman-block .line-3 {
+  width: 200px;
+  height: 10px;
+  top: 30px;
+  left: 20px;
+}
+
+/* Rope */
+.hangman-block .line-4 {
+  width: 10px;
+  height: 80px;
+  top: 30px;
+  left: 220px;
+}
+
+/* Head (circle) */
+.hangman-block .line-5 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid black;
+  background: none;
+  top: 105px;
+  left: 200px;
+}
+
+/* Body */
+.hangman-block .line-6 {
+  width: 8px;
+  height: 100px;
+  top: 150px;
+  left: 220px;
+}
+
+/* Left arm */
+.hangman-block .line-7 {
+  width: 80px;
+  height: 6px;
+  top: 180px;
+  left: 220px;
+  transform: rotate(-45deg);
+}
+
+/* Right arm */
+.hangman-block .line-8 {
+  width: 75px;
+  height: 6px;
+  top: 180px;
+  left: 220px;
+  transform: rotate(225deg);
+}
+
+/* Left leg */
+.hangman-block .line-9 {
+  width: 80px;
+  height: 6px;
+  top: 245px;
+  left: 225px;
+  transform: rotate(45deg);
+}
+
+/* Right leg */
+.hangman-block .line-10 {
+  width: 80px;
+  height: 6px;
+  top: 250px;
+  left: 225px;
+  transform: rotate(135deg);
+}
